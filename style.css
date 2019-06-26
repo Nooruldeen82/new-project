@@ -1,0 +1,55 @@
+/*Nooruldeen*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic2{
+    position: absolute;
+    z-index: 0;
+    left: 300px;
+}
+.pic1 {
+    z-index: -1;
+    position: absolute;
+    left: 300px;
+    margin-top: 7px;
+    animation: spin 3s linear infinite reverse;  
+    animation-play-state: paused;
+    z-index: -1;
+}
+
+@keyframes rotate30{
+    to{transform:rotate(735deg)};
+} 
+@keyframes rotate60{
+    to{transform:rotate(765deg)};
+} 
+@keyframes rotate90{
+    to{transform:rotate(795deg)};
+} 
+@keyframes rotate120{
+    to{transform:rotate(825deg)};
+} 
+@keyframes rotate150{
+    to{transform:rotate(855deg)};
+} 
+@keyframes rotate180{
+    to{transform:rotate(985deg)};
+} 
+@keyframes rotate210{
+    to{transform:rotate(915deg)};
+} 
+@keyframes rotate240{
+    to{transform:rotate(945deg)};
+} 
+@keyframes rotate270{
+    to{transform:rotate(975deg)};
+} 
+@keyframes rotate300{
+    to{transform:rotate(1005deg)};
+} 
+@keyframes rotate330{
+    to{transform:rotate(1035deg)};
+} 
+@keyframes rotate360{
+    to{transform:rotate(1065deg)};
+} 
