@@ -11,7 +11,7 @@ body{
     z-index: -1;
     position: absolute;
     left: 300px;
-    margin-top: 7px;
+    margin-top: 8px;
     animation: spin 3s linear infinite reverse;  
     animation-play-state: paused;
     z-index: -1;
